@@ -371,9 +371,9 @@ table.imgtable, table.imgtable td {
 
 .checked>li {
     list-style-type: none;
-    background: url("../imgs/checked.png") no-repeat 0rem 0.2rem;
-    background-size: 1rem 1rem;
-    text-indent: 1.5em;
+    /* background: url("../imgs/checked.png") no-repeat 0rem 0.2rem; */
+    /* background-size: 1rem 1rem; */
+    text-indent: 1.0em;
 }
 
 .checked>li ul {
