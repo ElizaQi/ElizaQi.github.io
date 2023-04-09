@@ -11,7 +11,8 @@ a:hover {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	margin-right:0.1em;
+	/* border-bottom: 3px double gray; */
 }
 
 h1, h2, h3, #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -21,6 +22,8 @@ h1, h2, h3, #layout-menu a.current:link, #layout-menu a.current:visited {
 h1, h2, h3 {
 	border-bottom: 1px solid #c0c0c0;
 }
+
+
 
 div#footer-text {
 	padding-bottom: 0;

@@ -46,6 +46,10 @@ body {
 	margin-left: 0.5em;
 }
 
+.introduction{
+	line-height: 1.5em;
+}
+
 tt {
 	background: #ffffdd;
 }
@@ -92,7 +96,8 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	text-align: center;
+	/* border-bottom: 3px double gray; */
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -118,7 +123,7 @@ strong {
 
 h1, h2, h3 {
 	color: #527bbd;
-	margin-top: 0.7em;
+	margin-top: 0.5em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
@@ -198,7 +203,7 @@ dd > *:first-child {
 
 ul {
 	list-style-position: outside;
-	list-style-type: square;
+	list-style-type: none;
 }
 
 p + ul, p + ol {
@@ -369,14 +374,21 @@ table.imgtable, table.imgtable td {
 	text-align: left;
 }
 
-.checked>li {
+/* .checked>li {
     list-style-type: none;
-    /* background: url("../imgs/checked.png") no-repeat 0rem 0.2rem; */
-    /* background-size: 1rem 1rem; */
-    text-indent: 1.0em;
+    background: url("../imgs/checked.png") no-repeat 0rem 0.2rem;
+    background-size: 1rem 1rem;
+    text-indent: 1.5em;
 }
 
 .checked>li ul {
     text-indent: 0em
+} */
+
+ul {
+	padding-inline-start: 20px
 }
 
+.point {
+	padding-inline-start: 0px
+}
